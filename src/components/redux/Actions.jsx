@@ -1,0 +1,5 @@
+export const ADD_ITEM_TO_LIST      = "ADD_ITEM_TO_LIST"
+export const ADD_ITEM_TO_CART      = "ADD_ITEM_TO_CART"
+export const REMOVE_ITEM_FROM_CART = "REMOVE_ITEM_FROM_CART"
+export const TOGGLE_THEME          = "TOGGLE_THEME"
+export const PERFORM_LANGUAGE      = "PERFORM_LANGUAGE"

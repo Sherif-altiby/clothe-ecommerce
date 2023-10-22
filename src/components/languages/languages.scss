@@ -1,0 +1,44 @@
+.language{
+  position: relative;
+}
+.language_icon{
+  i{
+    font-size: 25px;
+    cursor: pointer;
+  }
+}
+
+ul{
+  &.languages_list{
+   position: absolute;
+    background: #695b5b;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 13px;
+    padding-bottom: 0;
+    top: 25px;
+    left: -54px;
+    color: #fff;
+    transition: .4s;
+    opacity: 0;
+    &.block{
+      opacity: 1;
+    }
+   li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    &:last-child{
+      border-top: 1px solid;
+      padding-top: 5px;
+    }
+   }
+  }
+  img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+}

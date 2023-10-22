@@ -1,0 +1,71 @@
+.women_home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../components/assets/img/hero2.jpg");
+  background-position: center;
+  background-size: cover;
+  &.men_home{
+    background-image: url("../../components/assets/img/hero3.jpg");
+  }
+  h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 10px;
+    font-weight: normal;
+  }
+  ul.filter {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    background-color: transparent;
+    list-style: none;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #535353;
+    gap: 30px;
+    li {
+      select {
+        color: #fff;
+        border: none;
+        outline: none;
+        font-size: 17px;
+        font-weight: normal;
+        text-align: center;
+        background: transparent;
+        width: 120px;
+        option {
+          outline: none;
+          background: #a6a0a0;
+          text-align: left;
+          color: #5a5656;
+        }
+      }
+    }
+  }
+}
+.items_container{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #000;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+  &.light{
+    background-color: #fff;
+  }
+}
+
+
+@media (max-width : 425px){
+  .women_home{
+  h1{
+    font-size: 30px;
+  }
+  }
+}
