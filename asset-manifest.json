@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/clothe-ecommerce/static/css/main.299e53a2.css",
-    "main.js": "/clothe-ecommerce/static/js/main.3d1e2341.js",
+    "main.js": "/clothe-ecommerce/static/js/main.cfc2718f.js",
     "static/media/z.mp4": "/clothe-ecommerce/static/media/z.1742585b36b2fc16ef10.mp4",
     "static/media/search.jpg": "/clothe-ecommerce/static/media/search.76a871583b0d7d5d7307.jpg",
     "static/media/about.jpg": "/clothe-ecommerce/static/media/about.598a0cd04e1cdd8e51ed.jpg",
@@ -44,12 +44,11 @@
     "static/media/us.webp": "/clothe-ecommerce/static/media/us.f8c8b8ae3ac41e95b7d9.webp",
     "static/media/eg.webp": "/clothe-ecommerce/static/media/eg.76f3cd66aaa11a9a9570.webp",
     "index.html": "/clothe-ecommerce/index.html",
-    "static/media/getFetch.cjs": "/clothe-ecommerce/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.299e53a2.css.map": "/clothe-ecommerce/static/css/main.299e53a2.css.map",
-    "main.3d1e2341.js.map": "/clothe-ecommerce/static/js/main.3d1e2341.js.map"
+    "main.cfc2718f.js.map": "/clothe-ecommerce/static/js/main.cfc2718f.js.map"
   },
   "entrypoints": [
     "static/css/main.299e53a2.css",
-    "static/js/main.3d1e2341.js"
+    "static/js/main.cfc2718f.js"
   ]
 }
